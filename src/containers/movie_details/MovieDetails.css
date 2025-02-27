@@ -1,0 +1,43 @@
+.singleMovieImage {
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    
+}
+
+.entireCard {
+    display: flex;
+    /* width: calc(100vw - 200px); */
+    background-color: rgb(255, 249, 249);
+    padding: 26px;
+    margin: 20px;
+    border-radius: 6px;
+} 
+
+.entireMovieDetailsDiv {
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: black;
+    overflow-x: hidden;
+    
+} 
+
+.movieContent { 
+    /* margin-left: 40px;
+    margin-right: 20px; */
+   
+    margin: 0px;
+    color: black;
+    width: 60%;
+    margin-right: 20px;
+}
+ 
+.eachContent {
+    margin-left: 30px;
+}
+
+.playButton{
+    width: 200px;
+    background-color: black;
+    color: white;
+}

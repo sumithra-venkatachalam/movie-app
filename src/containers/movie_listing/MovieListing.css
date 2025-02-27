@@ -1,0 +1,99 @@
+.movieListingBgImage {
+    width: calc(100vw - 200px);
+    height: 100vh;
+   
+}
+
+.container {
+    position: relative;
+    width: calc(100vw - 200px);
+    height: 100vh;
+   
+}
+
+.movieTitleAboveImage {
+    position: absolute;
+    color: white; 
+    top: 80px;
+    left: 90px; 
+} 
+
+.entireDiv {
+    height: 100vh;
+    overflow-y: scroll;   
+    width: calc(100vw - 200px);    
+    overflow-x: hidden;     
+    background-color: black;     
+}
+
+.nBold {
+    color: red;
+}
+
+.entireNTitle {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.movieTitle {
+    font-size: 55px;
+    margin: 0px;
+}
+
+.justContent {
+    width: 300px;
+    height: 100px;
+}
+
+.playButton {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.moreInfoButton {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.multipleMovieList {
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 26px;
+   padding-top: 10px;
+   width: calc(100vw - 200px);
+   
+}
+
+.multipleMovieList::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.eachMovieTitle {
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.togetherAllMovies {
+    cursor: pointer;
+}

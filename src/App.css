@@ -1,0 +1,12 @@
+html, body {
+  margin: 0px;
+  
+}
+
+.navAndContent {
+  display: flex;
+}
+
+* {
+  font-family: "Roboto", serif;
+}

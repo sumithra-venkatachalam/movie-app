@@ -10,14 +10,14 @@ function App() {
  
   return (
     <div className="navAndContent">
-        <BrowserRouter>
+        <HashRouter>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/movielisting" element={<MovieListing/>}/>
           <Route path="/moviedetails/:id" element={<MovieDetails/>}/>
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
   )
 }
